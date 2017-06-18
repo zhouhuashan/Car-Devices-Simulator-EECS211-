@@ -1,0 +1,370 @@
+Command create_device recognized
+Command create_device recognized
+Command create_device recognized
+Command create_device recognized
+Command create_device recognized
+Command create_device recognized
+Command create_device recognized
+Command create_device recognized
+Command create_device recognized
+Command status recognized
+Time is: 0
+Device status.
+Device: Left Turn Signal. ID: 21. Value: 250
+Device has never malfunctioned.
+This is a digital sensor device.
+The device is currently OFF.
+
+Device: Right Turn Signal. ID: 22. Value: 250
+Device has never malfunctioned.
+This is a digital sensor device.
+The device is currently OFF.
+
+Device: Accelerator. ID: 41. Value: 0
+Device has never malfunctioned.
+This is an analog sensor device.
+The resolution is 7, and the value is 0.
+
+Device: Brake. ID: 42. Value: 0
+Device has never malfunctioned.
+This is an analog sensor device.
+The resolution is 5, and the value is 0.
+
+Device: Speedometer. ID: 43. Value: 0
+Device has never malfunctioned.
+This is an analog sensor device.
+The resolution is 7, and the value is 0.
+
+Device: Left Turn Lamp. ID: 51. Value: 250
+Device has never malfunctioned.
+This is a digital controller device.
+The device is currently OFF.
+
+Device: Right Turn Lamp. ID: 52. Value: 250
+Device has never malfunctioned.
+This is a digital controller device.
+The device is currently OFF.
+
+Device: Brake Lamps. ID: 53. Value: 250
+Device has never malfunctioned.
+This is a digital controller device.
+The device is currently OFF.
+
+Device: Motor. ID: 61. Value: 0
+Device has never malfunctioned.
+This is an analog controller device with range 0 to 100.
+The value is 0.
+
+Command status recognized
+Time is: 0
+Event status.
+Displaying Event list.
+
+Command time_click recognized
+Processing events at time 1.
+Command time_click recognized
+Processing events at time 2.
+Command status recognized
+Time is: 2
+Event status.
+Displaying Event list.
+
+Command set_device_value recognized
+Command status recognized
+Time is: 2
+Event status.
+Displaying Event list.
+Node 1:
+EVENT: Device = Left Turn Signal
+Device code: 200. Scheduled to be process at : 2
+
+Command time_click recognized
+Processing events at time 3.
+Processing event:
+EVENT: Device = Left Turn Signal
+Device code: 200. Scheduled to be process at : 2
+
+Command set_device_value recognized
+Command status recognized
+Time is: 3
+Event status.
+Displaying Event list.
+Node 1:
+EVENT: Device = Brake
+Device code: 1. Scheduled to be process at : 3
+Node 2:
+EVENT: Device = Left Turn Lamp
+Device code: 250. Scheduled to be process at : 5
+
+Command time_click recognized
+Processing events at time 4.
+Processing event:
+EVENT: Device = Brake
+Device code: 1. Scheduled to be process at : 3
+
+Command time_click recognized
+Processing events at time 5.
+Processing event:
+EVENT: Device = Left Turn Lamp
+Device code: 250. Scheduled to be process at : 5
+
+Command time_click recognized
+Processing events at time 6.
+Command time_click recognized
+Processing events at time 7.
+Processing event:
+EVENT: Device = Left Turn Lamp
+Device code: 200. Scheduled to be process at : 7
+
+Command time_click recognized
+Processing events at time 8.
+Command set_device_value recognized
+Command time_click recognized
+Processing events at time 9.
+Processing event:
+EVENT: Device = Brake
+Device code: 0. Scheduled to be process at : 8
+
+Processing event:
+EVENT: Device = Left Turn Lamp
+Device code: 250. Scheduled to be process at : 9
+
+Command time_click recognized
+Processing events at time 10.
+Command time_click recognized
+Processing events at time 11.
+Processing event:
+EVENT: Device = Left Turn Lamp
+Device code: 200. Scheduled to be process at : 11
+
+Command set_device_value recognized
+Command status recognized
+Time is: 11
+Event status.
+Displaying Event list.
+Node 1:
+EVENT: Device = Left Turn Signal
+Device code: 250. Scheduled to be process at : 11
+Node 2:
+EVENT: Device = Left Turn Lamp
+Device code: 250. Scheduled to be process at : 13
+
+Command time_click recognized
+Processing events at time 12.
+Processing event:
+EVENT: Device = Left Turn Signal
+Device code: 250. Scheduled to be process at : 11
+
+Command time_click recognized
+Processing events at time 13.
+Command time_click recognized
+Processing events at time 14.
+Command time_click recognized
+Processing events at time 15.
+Command set_device_value recognized
+Command set_device_value recognized
+Command status recognized
+Time is: 15
+Device status.
+Device: Left Turn Signal. ID: 21. Value: 250
+Device has never malfunctioned.
+This is a digital sensor device.
+The device is currently OFF.
+
+Device: Right Turn Signal. ID: 22. Value: 250
+Device has never malfunctioned.
+This is a digital sensor device.
+The device is currently OFF.
+
+Device: Accelerator. ID: 41. Value: 50
+Device has never malfunctioned.
+This is an analog sensor device.
+The resolution is 7, and the value is 50.
+
+Device: Brake. ID: 42. Value: 0
+Device has never malfunctioned.
+This is an analog sensor device.
+The resolution is 5, and the value is 0.
+
+Device: Speedometer. ID: 43. Value: 35
+Device has never malfunctioned.
+This is an analog sensor device.
+The resolution is 7, and the value is 35.
+
+Device: Left Turn Lamp. ID: 51. Value: 250
+Device has never malfunctioned.
+This is a digital controller device.
+The device is currently OFF.
+
+Device: Right Turn Lamp. ID: 52. Value: 250
+Device has never malfunctioned.
+This is a digital controller device.
+The device is currently OFF.
+
+Device: Brake Lamps. ID: 53. Value: 250
+Device has never malfunctioned.
+This is a digital controller device.
+The device is currently OFF.
+
+Device: Motor. ID: 61. Value: 0
+Device has never malfunctioned.
+This is an analog controller device with range 0 to 100.
+The value is 0.
+
+Command status recognized
+Time is: 15
+Event status.
+Displaying Event list.
+Node 1:
+EVENT: Device = Accelerator
+Device code: 50. Scheduled to be process at : 15
+Node 2:
+EVENT: Device = Speedometer
+Device code: 35. Scheduled to be process at : 15
+
+Command time_click recognized
+Processing events at time 16.
+Processing event:
+EVENT: Device = Accelerator
+Device code: 50. Scheduled to be process at : 15
+
+Processing event:
+EVENT: Device = Speedometer
+Device code: 35. Scheduled to be process at : 15
+
+Command time_click recognized
+Processing events at time 17.
+Command set_device_value recognized
+Command status recognized
+Time is: 17
+Device status.
+Device: Left Turn Signal. ID: 21. Value: 250
+Device has never malfunctioned.
+This is a digital sensor device.
+The device is currently OFF.
+
+Device: Right Turn Signal. ID: 22. Value: 250
+Device has never malfunctioned.
+This is a digital sensor device.
+The device is currently OFF.
+
+Device: Accelerator. ID: 41. Value: 50
+Device has never malfunctioned.
+This is an analog sensor device.
+The resolution is 7, and the value is 50.
+
+Device: Brake. ID: 42. Value: 0
+Device has never malfunctioned.
+This is an analog sensor device.
+The resolution is 5, and the value is 0.
+
+Device: Speedometer. ID: 43. Value: 96
+Device has never malfunctioned.
+This is an analog sensor device.
+The resolution is 7, and the value is 96.
+
+Device: Left Turn Lamp. ID: 51. Value: 250
+Device has never malfunctioned.
+This is a digital controller device.
+The device is currently OFF.
+
+Device: Right Turn Lamp. ID: 52. Value: 250
+Device has never malfunctioned.
+This is a digital controller device.
+The device is currently OFF.
+
+Device: Brake Lamps. ID: 53. Value: 250
+Device has never malfunctioned.
+This is a digital controller device.
+The device is currently OFF.
+
+Device: Motor. ID: 61. Value: 50
+Device has never malfunctioned.
+This is an analog controller device with range 0 to 100.
+The value is 50.
+
+Command status recognized
+Time is: 17
+Event status.
+Displaying Event list.
+Node 1:
+EVENT: Device = Speedometer
+Device code: 96. Scheduled to be process at : 17
+
+Command time_click recognized
+Processing events at time 18.
+Processing event:
+EVENT: Device = Speedometer
+Device code: 96. Scheduled to be process at : 17
+
+Command time_click recognized
+Processing events at time 19.
+Command set_device_value recognized
+Command status recognized
+Time is: 19
+Event status.
+Displaying Event list.
+Node 1:
+EVENT: Device = Speedometer
+Device code: 127. Scheduled to be process at : 19
+
+Command malfunction recognized
+Command status recognized
+Time is: 19
+Device status.
+Device: Left Turn Signal. ID: 21. Value: 250
+Device has never malfunctioned.
+This is a digital sensor device.
+The device is currently OFF.
+
+Device: Right Turn Signal. ID: 22. Value: 250
+Device has never malfunctioned.
+This is a digital sensor device.
+The device is currently OFF.
+
+Device: Accelerator. ID: 41. Value: 50
+Device has never malfunctioned.
+This is an analog sensor device.
+The resolution is 7, and the value is 50.
+
+Device: Brake. ID: 42. Value: 0
+Device has never malfunctioned.
+This is an analog sensor device.
+The resolution is 5, and the value is 0.
+
+Device: Speedometer. ID: 43. Value: 127
+Device has never malfunctioned.
+This is an analog sensor device.
+The resolution is 7, and the value is 127.
+
+Device: Left Turn Lamp. ID: 51. Value: 250
+Device has never malfunctioned.
+This is a digital controller device.
+The device is currently OFF.
+
+Device: Right Turn Lamp. ID: 52. Value: 250
+Device has never malfunctioned.
+This is a digital controller device.
+The device is currently OFF.
+
+Device: Brake Lamps. ID: 53. Value: 250
+Malfunction record:
+1 malfunctions.
+Most recent: 19
+Malfunction type: device stopped working.
+This is a digital controller device.
+The device is currently OFF.
+
+Device: Motor. ID: 61. Value: 50
+Device has never malfunctioned.
+This is an analog controller device with range 0 to 100.
+The value is 50.
+
+Command time_click recognized
+Processing events at time 20.
+Processing event:
+EVENT: Device = Speedometer
+Device code: 127. Scheduled to be process at : 19
+
+Command halt recognized
+That's all, folks.
